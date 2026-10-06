@@ -56,6 +56,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
+      # Highlight PHP snippets that don't start with <?php
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            startinline: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.details
