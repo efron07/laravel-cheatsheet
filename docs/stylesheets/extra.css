@@ -1,0 +1,4 @@
+/* Blade syntax has no dedicated highlighter; don't flag its tags as errors */
+.md-typeset .highlight .err { color: inherit; background: none; border: none; }
+/* Slightly wider content area for code-heavy pages */
+.md-grid { max-width: 1440px; }
